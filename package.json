@@ -4,7 +4,18 @@
   "description": "learn how to use webpack",
   "main": "bundle.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "es6-loader": "^0.2.0",
+    "jshint": "^2.9.1",
+    "jsxhint-loader": "^0.2.0",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "stylus-loader": "^1.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

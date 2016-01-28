@@ -5,6 +5,15 @@ http://webpack.github.io/docs/tutorials/getting-started/
 npm install webpack -g
 
 npm install css-loader style-loader 
+npm install stylus-loader --save-dev
+npm install react@0.13.3 --save-dev
+npm install react-router@0.13.3 --save-dev
+npm install babel-loader babel-core babel-preset-es2015 babel-preset-react --save-dev 
+npm i jshint@^2.5.0 --save-dev
+npm i jsxhint-loader --save-dev
+
+#custom  config file
+webpack —config webpack.custom.config.js
 
 require("!style!css!./style.css");
 
